@@ -1,0 +1,20 @@
+JavaScript
+Dari Wikipedia bahasa Indonesia, ensiklopedia bebas
+JavaScript Javascript.svg
+Ekstensi berkas 	.js
+Jenis MIME 	application/javascript, text/javascript[1]
+Uniform Type Identifier 	com.netscape.javascript -​ sumber [2]
+Dikembangkan oleh 	Netscape Communications Corporation, Mozilla Foundation
+Rilis terbaru 	1.9.3 / 2010
+Jenis format 	Bahasa skrip
+Situs web 	Mozilla Developer Center
+
+JavaScript adalah bahasa pemrograman berbasis java yang merupakan interface pembantu dalam pemrograman web. JavaScript populer di internet dan dapat bekerja di sebagian besar penjelajah web populer seperti Internet Explorer (IE), Mozilla Firefox, Netscape dan Opera. Kode JavaScript dapat disisipkan dalam halaman web menggunakan tag SCRIPT.[3]
+
+Sejarah
+
+JavaScript pertama kali dikembangkan oleh Brendan Eich dari Netscape dibawah nama Mocha, yang nantinya namanya diganti menjadi LiveScript, dan akhirnya menjadi JavaScript.[4] [5]
+
+Navigator sebelumnya telah mendukung Java untuk lebih bisa dimanfaatkan para programmer yang non-Java.[6] Maka dikembangkanlah bahasa pemrograman bernama LiveScript untuk mengakomodasi hal tersebut.[6] Bahasa pemrograman inilah yang akhirnya berkembang dan diberi nama JavaScript, walaupun tidak ada hubungan bahasa antara Java dengan JavaScript.[6]
+
+JavaScript bisa digunakan untuk banyak tujuan, misalnya untuk membuat efek rollover baik di gambar maupun teks, dan yang penting juga adalah untuk membuat AJAX.[6] JavaScript adalah bahasa yang digunakan untuk AJAX.[6]

@@ -1,0 +1,10 @@
+COBOL
+Dari Wikipedia bahasa Indonesia, ensiklopedia bebas
+
+COBOL (singkatan dari Common Business Oriented Language) adalah sebuah bahasa pemrograman generasi ketiga. Sesuai dengan namanya, maka bahasa COBOL mempunyai fungsi menyelesaikan masalah-masalah yang berhubungan dengan perdagangan, seperti sistem pengelolaan keuangan, laporan pengeluaran sebuah perusahaan dan lain-lain. Dikembangkan tahun 1959 dan banyak digunakan pada mainframe dan komputer mini.
+
+Kemudahan COBOL:
+
+    Sintaksnya berbahasa Inggris
+    Penanganan file
+    Input/output program.

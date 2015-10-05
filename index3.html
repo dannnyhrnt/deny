@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="">
+   <meta name="keywords" content="">
+   <meta name="author" content="">
+
+   <title>Web Application</title>
+
+   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+   <link rel="stylesheet" href="assets/plugin/datetimepicker/datepicker.css">
+   <link rel="stylesheet" href="assets/css/carousel.css">
+   <link rel="stylesheet" href="assets/css/sb-admin.css">
+   <link rel="stylesheet" href="assets/css/style2.css">
+
+</head>
+<body>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar" id="sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href=""><span class="glyphicon glyphicon-dashboard"></span> Dashboard</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-stats"></span> Reports</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-eye-open"></span> Archive</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-comment"></span> Social</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-user"></span> Users</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-folder-open"></span> Documents</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-star-empty"></span> Favorites</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-wrench"></span> Tools</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-certificate"></span> Settings</a></li>
+
+            <div class="row">
+                <div class="dark col-md-12">
+                <form>
+                  <span><input type="text" class="search rounded" placeholder="Search..."></span>
+                </form>
+                </div>
+            </div>
+
+            <!--
+            <li <?php if($link_active == 'pengumuman') echo 'class="active"' ?>><a href="<?= base_url('pengumuman') ?>">Pengumuman</a></li>
+            <li <?php if($link_active == 'slider') echo 'class="active"' ?>><a href="<?= base_url('slider') ?>">Slider</a></li>
+            <li <?php if($link_active == 'loginconfig') echo 'class="active"' ?>><a href="<?= base_url('loginconfig') ?>">Peringatan (Login)</a></li>
+            -->
+          </ul>
+        </div>
+
+        
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+            <div class="row">
+                <h1>
+                    <a id="menu-toggle" href="#" class="btn"><i class="icon-reorder"></i></a>
+                    Simple Sidebar
+                </h1>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12 title">
+                Monthly Summary
+              </div>
+            </div>
+            <br />
+
+            <!-- CHARTS -->
+            <div class="row">
+                <div class="col-md-8">
+                    <div id="chart1" style="width: 100%; height: 300px; background-color: #2f3139;" ></div>
+                </div>
+                <div class="col-md-4">
+                    <div id="chart2" style="width: 100%; height: 300px; background-color: #2f3139;" ></div>
+                </div>
+            </div>
+
+            <br />
+            <br />
+            <div class="row">
+              <div class="col-md-8 title">
+                Your Orders
+              </div>
+              <div class="col-md-4 align-right">
+                  <div class="row">
+                      <div class="col-md-1"></div>
+                      <div class="col-md-3">
+                          Pending
+                      </div>
+                      <div class="col-md-3">
+                          Completed
+                      </div>
+                      <div class="col-md-3">
+                          Refunded
+                      </div>
+                      <div class="col-md-2">
+                          <span class="glyphicon glyphicon-edit"></span>
+                      </div>
+                  </div>
+              </div>
+            </div>
+
+            <br />
+            <!-- TABLE -->
+            <div class="row">
+              <div class="col-md-8">
+                
+                <table class="" width="100%" id="table">
+                  <thead>
+                    <th width="60%">Item</th>
+                    <th>Costumer</th>
+                    <th>Price</th>
+                    <th>Product</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>HTC Mobile</td>
+                      <td>Alan B.</td>
+                      <td>$438</td>
+                      <td>B-ZTF</td>
+                    </tr>
+                    <tr>
+                      <td>Samsung Mobile</td>
+                      <td>Joe Smith</td>
+                      <td>$680</td>
+                      <td>C-567</td>
+                    </tr>
+                    <tr>
+                      <td>Apple Mobile</td>
+                      <td>Patrick J.</td>
+                      <td>$680</td>
+                      <td>E-567</td>
+                    </tr>
+                    <tr>
+                      <td>LG Mobile</td>
+                      <td>Anna Han</td>
+                      <td>$340</td>
+                      <td>Z-423</td>
+                    </tr>
+                    <tr>
+                      <td>Nokia Mobile</td>
+                      <td>Mark Mule</td>
+                      <td>$230</td>
+                      <td>W-225</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              </div>
+
+              <div class="col-md-4">
+                <div id="chart3" style="width: 100%; height: 250px; background-color: #2f3139;" ></div>
+              </div>
+            </div>
+
+            <br />
+            <br />
+            <div class="row">
+              <div class="col-md-8 title">
+                Products
+              </div>
+              <div class="col-md-4">
+                  <div class="row align-right">
+                      <div class="col-md-3"></div>
+                      <div class="col-md-4">
+                          Best Sellers
+                      </div>
+                      <div class="col-md-3">
+                          View All
+                      </div>
+                      <div class="col-md-2">
+                          <span class="glyphicon glyphicon-edit"></span>
+                      </div>
+                  </div>
+              </div>
+            </div>
+
+            <br />
+            <!-- CHARTS -->
+            <div class="row">
+                <div class="col-md-8">
+                    
+                    <!-- jQuery knobs -->
+                    <div class="row-fluid section">
+                         <!-- block -->
+                        <div class="block">
+                            <div class="block-content collapse in">
+                                <div class="col-md-3">     
+                                    <input type="text" value="70" class="knob second" data-thickness=".3" data-inputColor="#a6aebf" data-fgColor="#1da1d3" data-bgColor="#266885" data-width="140">
+                                </div>
+                                <div class="col-md-3">
+                                    <input type="text" value="75" class="knob second" data-thickness=".3" data-inputColor="#a6aebf" data-fgColor="#0179de" data-bgColor="#1d4d7a" data-width="140">
+                                </div>
+                                <div class="col-md-3">
+                                    <input type="text" value="35" class="knob second" data-thickness=".3" data-inputColor="#a6aebf" data-fgColor="#9b83f8" data-bgColor="#504b75" data-width="140">
+                                </div>
+                                <div class="col-md-3">
+                                    <input type="text" value="85" class="knob second" data-thickness=".3" data-inputColor="#a6aebf" data-fgColor="#5933f0" data-bgColor="#383260" data-width="140">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /block -->
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div id="chart5" style="width: 100%; height: 200px; background-color: #2f3139;" ></div>
+                </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/modernizr-2.6.1-respond-1.1.0.min.js')?>"></script>
+    <script src="assets/js/jquery-1.8.2.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/plugin/datetimepicker/bootstrap-datepicker.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.knob.js"></script>
+    <script src="assets/amcharts/amcharts.js" type="text/javascript"></script>
+    <script src="assets/amcharts/serial.js" type="text/javascript"></script>
+    <script src="assets/amcharts/pie.js" type="text/javascript"></script>
+    <script src="assets/amcharts/themes/dark.js" type="text/javascript"></script>
+
+    <!-- amCharts javascript code -->
+    <script type="text/javascript">
+      AmCharts.makeChart("chart1",
+        {
+          "type": "serial",
+          "pathToImages": "http://cdn.amcharts.com/lib/3/images/",
+          "categoryField": "category",
+          "startDuration": 1,
+          "backgroundColor": "#2f3139",
+          "theme": "dark",
+          "categoryAxis": {
+            "gridPosition": "start"
+          },
+          "trendLines": [],
+          "graphs": [
+            {
+              "balloonText": "[[title]] of [[category]]:[[value]]",
+              "fillAlphas": 0.7,
+              "id": "AmGraph-1",
+              "lineAlpha": 0,
+              "title": "graph 1",
+              "valueField": "column-1"
+            },
+            {
+              "balloonText": "[[title]] of [[category]]:[[value]]",
+              "fillAlphas": 0.7,
+              "id": "AmGraph-2",
+              "lineAlpha": 0,
+              "title": "graph 2",
+              "valueField": "column-2"
+            }
+          ],
+          "guides": [],
+          "valueAxes": [],
+          "allLabels": [],
+          "balloon": {},
+          "legend": {},
+          "titles": [],
+          "dataProvider": [
+                  {
+                    "category": "category 1",
+                    "column-1": "0",
+                    "column-2": "0"
+                  },
+                  {
+                    "category": "category 2",
+                    "column-1": "12",
+                    "column-2": "6"
+                  },
+                  {
+                    "category": "category 3",
+                    "column-1": 2,
+                    "column-2": 3
+                  },
+                  {
+                    "category": "category 4",
+                    "column-1": "10",
+                    "column-2": "5"
+                  },
+                  {
+                    "category": "category 5",
+                    "column-1": 2,
+                    "column-2": 1
+                  },
+                  {
+                    "category": "category 6",
+                    "column-1": 3,
+                    "column-2": 2
+                  },
+                  {
+                    "category": "",
+                    "column-1": "",
+                    "column-2": ""
+                  }
+          ]
+        }
+      );
+    </script>
+
+    <script type="text/javascript">
+      AmCharts.makeChart("chart2",
+        {
+          "type": "pie",
+          "pathToImages": "http://cdn.amcharts.com/lib/3/images/",
+          "balloonText": "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>",
+          "innerRadius": "40%",
+          "labelText": "",
+          "alphaField": "Not set",
+          "colors": [
+            "#9f86ff",
+            "#007ae1",
+            "#1ca8dd",
+            "#c9f0e1",
+            "#d48652",
+            "#629b6d",
+            "#719dc3",
+            "#719dc3"
+          ],
+          "outlineThickness": 0,
+          "titleField": "category",
+          "urlField": "Not set",
+          "valueField": "column-1",
+          "visibleInLegendField": "category",
+          "backgroundColor": "#2F323A",
+          "theme": "dark",
+          "allLabels": [],
+          "balloon": {},
+          "legend": {
+            "align": "center",
+            "markerType": "circle"
+          },
+          "titles": [],
+          "dataProvider": [
+            {
+              "category": "New Costumers",
+              "column-1": "8"
+            },
+            {
+              "category": "Sales",
+              "column-1": "6"
+            },
+            {
+              "category": "Refund",
+              "column-1": "2"
+            }
+          ]
+        }
+      );
+    </script>
+
+    <script type="text/javascript">
+      AmCharts.makeChart("chart3",
+        {
+          "type": "serial",
+          "pathToImages": "http://cdn.amcharts.com/lib/3/images/",
+          "categoryField": "category",
+          "startDuration": 1,
+          "backgroundColor": "#2F323A",
+          "theme": "dark",
+          "categoryAxis": {
+            "gridPosition": "start"
+          },
+          "trendLines": [],
+          "graphs": [
+            {
+              "colorField": "color",
+              "fillAlphas": 1,
+              "id": "AmGraph-1",
+              "lineColorField": "color",
+              "title": "graph 1",
+              "type": "column",
+              "valueField": "column-1"
+            }
+          ],
+          "guides": [],
+          "valueAxes": [
+            {
+              "id": "ValueAxis-1",
+              "title": ""
+            }
+          ],
+          "allLabels": [],
+          "balloon": {},
+          "titles": [],
+          "dataProvider": [
+            {
+              "category": "MON",
+              "column-1": "20",
+              "color": "#1ba7dc"
+            },
+            {
+              "category": "TUE",
+              "column-1": 16,
+              "color": "#0079e0"
+            },
+            {
+              "category": "WED",
+              "column-1": "24",
+              "color": "#9e85fe"
+            },
+            {
+              "category": "THU",
+              "column-1": "12",
+              "color": "#1ba7dc"
+            },
+            {
+              "category": "FRI",
+              "column-1": "27",
+              "color": "#0079e0"
+            },
+            {
+              "category": "SAT",
+              "column-1": "21",
+              "color": "#9e85fe"
+            },
+            {
+              "category": "SUN",
+              "column-1": "14"
+            }
+          ]
+        }
+      );
+    </script>
+
+    <script type="text/javascript">
+      AmCharts.makeChart("chart5",
+        {
+          "type": "serial",
+          "pathToImages": "http://cdn.amcharts.com/lib/3/images/",
+          "categoryField": "category",
+          "startDuration": 1,
+          "theme": "dark",
+          "categoryAxis": {
+            "gridPosition": "start"
+          },
+          "trendLines": [],
+          "graphs": [
+            {
+              "balloonText": "[[title]] of [[category]]:[[value]]",
+              "bullet": "square",
+              "fillColors": "#4539A8",
+              "fontSize": 0,
+              "id": "AmGraph-2",
+              "lineColor": "#4539A8",
+              "lineThickness": 6,
+              "title": "graph 2",
+              "valueField": "column-2"
+            }
+          ],
+          "guides": [],
+          "valueAxes": [
+            {
+              "id": "ValueAxis-1",
+              "title": ""
+            }
+          ],
+          "allLabels": [],
+          "balloon": {},
+          "legend": {
+            "useGraphSettings": true
+          },
+          "titles": [],
+          "dataProvider": [
+            {
+              "category": "MON",
+              "column-2": 5
+            },
+            {
+              "category": "TUE",
+              "column-2": 7
+            },
+            {
+              "category": "WED",
+              "column-2": 3
+            },
+            {
+              "category": "THU",
+              "column-2": 3
+            },
+            {
+              "category": "FRI",
+              "column-2": 1
+            },
+            {
+              "category": "SAT",
+              "column-2": 2
+            },
+            {
+              "category": "SUN",
+              "column-2": 8
+            }
+          ]
+        }
+      );
+    </script>
+    
+  <script type="text/javascript">
+   $(document).ready(
+      function()
+      {
+         $('#date, #datemasuk, #datekeluar').datepicker({ format: 'yyyy-mm-dd' });
+
+         $("[rel=tooltip]").tooltip();
+
+         jQuery('ul.nav li.dropdown').hover(function() {
+           jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn();
+         }, function() {
+           jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut();
+         });
+      }
+   );
+   </script>
+
+   <script type="text/javascript">
+      // Build jQuery Knobs
+      $(".knob").knob();
+
+      function labelFormatter(label, series) {
+          return "<div style='font-size:8pt; text-align:center; padding:2px; color:white;'>" + label + "<br/>" + Math.round(series.percent) + "%</div>";
+      }
+
+       var nowTemp = new Date();
+      var now = new Date(nowTemp.getFullYear(), nowTemp.getMonth(), nowTemp.getDate(), 0, 0, 0, 0);
+
+      var checkin = $('#dpd1').datepicker({
+         format: 'yyyy-mm-dd',
+          onRender: function (date) {
+              return date.valueOf() < now.valueOf() ? 'disabled' : '';
+          }
+      }).on('changeDate', function (ev) {
+          if (ev.date.valueOf() > checkout.date.valueOf()) {
+              var newDate = new Date(ev.date)
+              newDate.setDate(newDate.getDate() + 1);
+              checkout.setValue(newDate);
+          }
+          checkin.hide();
+          $('#dpd2')[0].focus();
+      }).data('datepicker');
+      var checkout = $('#dpd2').datepicker({
+         format: 'yyyy-mm-dd',
+          onRender: function (date) {
+              return date.valueOf() <= checkin.date.valueOf() ? 'disabled' : '';
+          }
+      }).on('changeDate', function (ev) {
+          checkout.hide();
+      }).data('datepicker');
+   </script>
+
+   <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar").toggleClass("active");
+    });
+    </script>
+
+   </body>
+</html>

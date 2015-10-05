@@ -1,0 +1,47 @@
+Embarcadero Delphi
+Dari Wikipedia bahasa Indonesia, ensiklopedia bebas
+(Dialihkan dari Delphi (bahasa pemrograman))
+Ini adalah versi yang telah diperiksa dari halaman initampilkan/sembunyikan detail
+Embarcadero Delphi Delphi XE2 IDE Screen shot.jpg
+Lingkungan pengembangan terpadu Delphi XE2
+Perancang 	Borland (1995–2008)
+Pengembang 	Embarcadero Technologies (2009–sekarang)
+Rilis stabil 	Delphi XE4 (v18.0) (22 April 2013; 2 tahun yang lalu)
+Status pengembangan 	Aktif
+Sistem operasi 	Microsoft Windows
+Ketersediaan bahasa 	Inggris, Perancis, Jerman and Jepang
+Jenis 	Lingkungan pengembangan terpadu
+Lisensi 	Komersil
+Situs web resmi 	www.embarcadero.com/products/delphi
+
+Delphi adalah sebuah Lingkungan pengembangan terpadu (IDE) untuk mengembangkan aplikasi konsol, desktop, web, ataupun perangkat mobile. Produk ini pada awalnya dikembangkan oleh CodeGear sebagai divisi pengembangan perangkat lunak milik Embarcadero, divisi tersebut sebelumnya adalah milik Borland. Bahasa Delphi, atau dikenal pula sebagai object pascal (pascal dengan ekstensi pemrograman berorientasi objek (PBO/OOP)) pada mulanya ditujukan hanya untuk Microsoft Windows, namun saat ini telah mampu digunakan untuk mengembangkan aplikasi untuk Mac OS X, iOS, Microsoft .NET framework (lihat di bawah).
+
+Pada tanggal 8 Februari 2006, Borland mengumumkan akan melepas seluruh jajaran produk pengembangan aplikasi komputernya termasuk di antaranya Delphi, untuk itulah Borland membentuk perusahaan baru dengan nama CodeGear sehingga terpisah dari Borland [1]. Saat ini Delphi menjadi bagian dari jajaran IDE milik Embarcadero Technologies setelah Embarcadero Technologies mengakuisisi CodeGear. Hal ini disebabkan karena kerugian yang terus menerus selama 2006 rugi bersih sebesar $53.1 juta, 2007 rugi bersih $61 juta. Sehingga pada tahun 2008 saat CodeGear menderita rugi bersih $22.3 maka CodeGear dijual ke Embarcadero seharga $23 juta untuk menutupi rugi bersih ini [2].
+
+Lingkungan pengembangan
+
+Umumnya Delphi lebih banyak digunakan untuk pengembangan aplikasi desktop dan enterprise berbasis database, tapi sebagai perangkat pengembangan yang bersifat general-purpose ia juga mampu dan digunakan dalam berbagai jenis proyek pengembangan software. Ia juga yang dikenal sebagai salah satu yang membawa istilah RAD tool, kepanjangan dari Rapid Application Development, saat dirilis tahun 1995 untuk windows 16-bit. Delphi 2, dirilis setahun kemudian, mendukung lingkungan windows 32-bit, dan versi c++, C++Builder, dirilis beberapa tahun kemudian. Pada tahun 2001 sebuah versi linux yang dikenal sebagai Kylix tersedia. Dengan satu rilis baru setiap tahunnya, pada tahun 2002 dukungan untuk Linux (melalui Kylix dan CLX component library) ditambahkan dan tahun 2003 .NET mulai didukung dengan munculnya Delphi.Net (Delphi 8).
+
+Chief Architect yang membidani Delphi, dan pendahulunya Turbo Pascal, adalah Anders Hejlsberg sampai kemudian ia pindah ke Microsoft tahun 1996 di mana ia sebagai chief designer C# dan termasuk orang kunci dalam perancangan Microsoft .Net Framework. Dukungan penuh untuk .Net ditambahkan pada Delphi 8 (dirilis pada bulan Desember 2003) dengan penampilan user interface (look and feel) mirip dengan Microsoft Visual Studio .NET.
+
+Delphi 2005 (nama lain dari Delphi 9) mendukung code generation baik untuk win32 maupun .NET, dan seperti yang telah dikenal, fitur-fitur manipulasi data secara live dari database secara design-time. Ia juga membawa banyak pembaruan pada IDE secara signifikan.
+
+Para penganjur delphi mengklaim dengan bahasa pemrograman Delphi, IDE dan component library (VCL/CLX) yang disediakan oleh vendor tunggal memungkinkan satu paket yang lebih konsisten dan mudah dikenali.
+
+Produk Delphi ini didistribusikan dalam beberapa rancangan: Personal, Professional, Enterprise (sebelumnya Client/Server) dan Architect.
+
+Keuntungan
+
+Delphi menawarkan sejumlah keuntungan dalam pengembangan aplikasi, antara lain:
+
+    Komunitas pengguna yang besar pada Usenet maupun web [3]
+    Dapat mengkompilasi menjadi single executable (aplikasi portable), memudahkan distribusi dan meminimalisir masalah yang terkait dengan versioning
+    Banyaknya dukungan dari pihak ketiga terhadap VCL (biasanya tersedia berikut source codenya) ataupun tools pendukung lainnya (dokumentasi, tool debugging)
+    Optimasi kompiler yang cukup cepat
+    Mendukung multiple platform dari source code yang sama
+
+Kerugian
+
+    Partial single vendor lock-in (Borland dapat menetapkan standar bahasa, kompatibilitas yang harus mengikutinya)
+    Akses pada platform dan library pihak ketiga membutuhkan file-file header yang diterjemahkan ke dalam bahasa pascal
+    Dokumentasi atas platform dan teknik-teknik yang menyertainya sulit ditemukan dalam bahasa pascal (contoh akses COM dan Win32)

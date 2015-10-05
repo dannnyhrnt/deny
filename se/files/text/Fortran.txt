@@ -1,0 +1,4 @@
+Fortran
+Dari Wikipedia bahasa Indonesia, ensiklopedia bebas
+
+Fortran (atau FORTRAN) adalah sebuah bahasa pemrograman. Pertama kali dikembangkan pada tahun 1956 oleh John Backus di IBM. Digunakan dalam bidang sains selama 50 tahun kemudian. Ditujukan untuk mempermudah pembuatan aplikasi matematika, ilmu pengetahuan, dan tehnik. Pertama kali bernama FORTRAN yang merupakan singkatan dari Formula Translator/Translation, tetapi penggunaan huruf besar kemudian ditiadakan sejak versi Fortran 90. Merupakan bahasa pemrograman tingkat tinggi pertama dan prosedural, akan tetapi versi-versi terbaru dari Fortran kemudian dikembangkan dengan memasukkan kemampuan object-oriented programming. Unggul pada dukungan dalam menangani bentuk perhitunga, termasuk bilangan kompleks. Kelemahannya pada operasi input/output yang lalu. Kode sumbernya juga sulit dipahami dibanding bahasa pemrograman tingkat tinggi lainnya.

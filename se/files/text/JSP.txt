@@ -1,0 +1,9 @@
+JSP
+Dari Wikipedia bahasa Indonesia, ensiklopedia bebas
+Perubahan tertunda ditampilkan di halaman iniBelum Diperiksa
+
+JSP (Java Server Page) ialah teknologi untuk mengontrol isi atau tampilan halaman Web melalui penggunaan servlet, program kecil yang dijalankan di server Web.
+
+Sun Microsystem, pembuat Java, mengacu kepada teknologi JSP sebagai Servlet API (Application Program Interface).
+
+Halaman HTML yang berisi link ke servlet Java memiliki akhiran .jsp.

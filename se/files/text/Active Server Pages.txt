@@ -1,0 +1,22 @@
+Active Server Pages
+Active Server Pages atau disingkat ASP adalah salah satu bahasa pemrograman web untuk menciptakan halaman web yang dinamis.
+Microsoft
+
+ASP merupakan salah satu produk teknologi yang disediakan oleh Microsoft.[1] ASP diproses melalui web server dan hasil proses ini menghasilkan HTML yang akan dikirimkan melalui penjelajah web (browser).[1] ASP bekerja pada web server dan merupakan server side scripting
+
+Pengenalan
+Active Server Pages (ASP) ialah pengaturan web yang digunakan untuk membina halaman web yang dinamik dan bersifat interaktif.[2] Active server page adalah fasilitas yang diberikan oleh Microsoft untuk memudahkan pembuatan aplikasi-aplikasi Web Server.[3] Hal ini di mungkinkan dengan menggabungkan komponen-komponen Hyper Text Markup Language (HTML) dengan Visual Basic Script (VBScript).[3] Sehingga di dalam sebuah halaman Web dengan Active Server Page terdapat bagian HTML dan kode VBScript.[3] ASP diciptakan oleh Microsoft untuk menjawab tantangan pemrograman web dinamis, di mana isi dari sebuah website dapat diprogram untuk mendapatkan hasil yang berbeda.[4] Tidak seperti HTML yang hanya menampilkan isi yang statis, ASP mampu menampilkan isi halaman yang berbeda sesuai dengan tujuan pemrogramannya.[4] ASP telah mencapai versi 3.0 yang berjalan pada platform Windows 2000 Professional atau Server.[4] Versi sebelumnya, yaitu versi 2.0, dapat berjalan pada platform lain seperti Linux, Solaris, OS/2, dan Novell.[4]
+
+Bahasa ASP murni Object Oriented Programming (OOP) memiliki struktur bahasa yang sama dengan bahasa Visual Basic yang mudah dimengerti karena sintaksnya menggunakan Bahasa Inggris.[4] Seperti diketahui, bahwa Visual Basic adalah bahasa pemrograman yang paling mudah dimengerti dan dipelajari dibandingkan bahasa pemrograman lainnya.[4] Oleh karena itu ASP sangat mudah dipelajari oleh para pemula sekalipun untuk membuat aplikasi web, disamping kehandalan dan kelengkapan fasilitas yang diberikan.[4]
+
+Kelebihan ASP
+
+Ada beberapa keuntungan yang diberikan oleh ASP yaitu:[3]
+
+    Mudah dalam mempelajarinya.
+    Mudah dikembangkan dari sistem yang telah dimiliki
+    Tidak perlu kompilasi.
+    Mudah menggabungkan dengan teknologi lain seperti CGI, DCOM, ActiveX dan lain-lain.
+    Dengan ActiveX Data Object dan SQL pembuatan Web Data Base menjadi lebih mudah.
+    Memberikan fasilitas keamanan seperti session Object, cookie, dan fasilitas transaksi online yang aman dengan protokol SSL, semua dapat dilakukan dengan sedikit kode tambahan.
+    Kode ASP tidak dapat di lihat pada client, hal ini di sebabkan oleh karena jika server menerima request file asp, maka file tersebut diproses dahulu pada server dan yang di kirimkan adalah kode-kode HTML

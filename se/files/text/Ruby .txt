@@ -1,0 +1,18 @@
+Ruby 
+Ruby adalah bahasa pemrograman dinamis berbasis skrip yang berorientasi obyek. Tujuan dari ruby adalah menggabungkan kelebihan dari semua bahasa-bahasa pemrograman skrip yang ada di dunia. Ruby ditulis dengan bahasa pemrograman C dengan kemampuan dasar seperti Perl dan Python.
+
+Sejarah
+
+Ruby pertama kali dibuat oleh seorang programmer Jepang bernama Yukihiro Matsumoto. Pada tahun 1993 Yukihiro ingin membuat sebuah bahasa skripting yang memiliki kemampuan orientasi obyek. Pada saat itu pemrograman berorientasi obyek sedang berkembang tetapi belum ada bahasa pemrograman scripting yang mendukung pemrograman obyek.
+
+Penulisan Ruby dimulai pada Februari 1993 dan pada Desember 1994 dirilis versi alpha dari Ruby. Pada awal perkembangan Ruby, Yukihiro menulis Ruby sendiri sampai pada tahun 1996 sudah terbentuk komunitas Ruby yang banyak mengontribusikan perkembangan Ruby.
+
+Saat ini Ruby telah berkembang tidak hanya di Jepang, tetapi diseluruh dunia. Bulan Agustus tahun 2006, Macintosh telah melakukan kerja sama dengan mengintegrasikan Ruby on Rails pada Mac OS X v10.5 Leopard telah diluncurkan bulan Oktober 2007.
+Kelebihan Ruby
+
+    Sintaks sederhana.
+    Memiliki exception handling yang baik.
+    Bahasa Pemrograman Berorientasi Objek.
+    Mengusung konsep single inheritance.
+    Open source, siapa saja dapat menggunakannya dengan cuma-cuma dan dapat ikut berpartisipasi mengembangkannya.
+    Memiliki garbage collector yang secara otomatis akan menghapus informasi tak terpakai dari memori.

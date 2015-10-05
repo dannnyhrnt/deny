@@ -1,0 +1,253 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+table {
+    font-size: 12px;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+}
+
+#main {
+    margin-top: 50px;
+}
+
+li.current-page {
+    background-color: #999;
+}
+
+li.current-page * {
+    color: #fff;    
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+    text-shadow: none;
+}
+
+.navbar-inverse .navbar-nav > li.current-page > a {
+    color: #fff;
+}
+
+.dropdown-menu > li.current-page,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+    color: #fff;
+    background-color: #000;
+    background-image: linear-gradient(to bottom, #666 0px, #000 100%);
+    background-repeat: repeat-x;
+}
+
+.dropdown-menu > li.current-page > a {
+    clear: both;
+    color: #fff;
+}
+
+.container {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+table.dataTable th,
+table.dataTable td {
+    white-space: nowrap;
+}
+
+/* LOGIN */
+
+#login {
+    width: 300px;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 0px;
+    margin: 0 auto;
+    margin-top: 60px;
+    color: #000;
+}
+
+#login #header {
+    background-color: #fff;
+    border-radius: 5px 5px 0px 0px;
+    padding: 12px;
+    font-size: 28px;
+    font-family: 'Calibri';
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    border-bottom: 1px solid #ebf4fd;
+}
+
+#login #body {
+    background-color: #f8fcff;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#login #footer {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Calibri;
+}
+
+#login #body #left {
+    background-color: #fff;
+    border-radius: 0px 0px 0px 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ebf4fd;
+}
+
+#login #body #right {
+    padding: 10px;
+}
+
+ul.login {
+    list-style-image: url('../img/check.png');
+}
+
+#filter {
+    border-radius: 4px;
+    color: #555555;
+    display: inline-block;
+    font-size: 14px;
+    height: 30px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    vertical-align: middle;   
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+
+.chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+    height: 30px;   
+}
+
+tfoot input {
+    width: 100%;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.sidebar-wrapper ul li ul.dropdown-menu {
+    position: absolute;
+    top: 0px;
+    left: 55px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 140px;
+    padding: 0px 0px;
+    margin: 2px 0px 0px;
+    list-style: outside none none;
+    font-size: 12px;
+    background-color: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.176);
+    background-clip: padding-box;
+}
+
+.sidebar-wrapper ul li ul.dropdown-menu li a {
+    text-align: left;
+}
+
+.dropdown-menu li div {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.sidebar-wrapper ul > li {
+    margin: 0px;
+    border-bottom: 1px thin #20638F;
+    display: block;
+}
+
+.sidebar-wrapper ul > li a {
+    display: block;
+    color: #555;
+    font-weight: 300;
+    /*text-transform: uppercase;*/
+    /*padding-left: 15px;
+    padding-right: 15px;*/
+    position: relative;
+    text-align: center;
+    width: auto;
+}
+
+.dropdown-menu li a,
+.dropdown-menu li:hover > a  {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.sidebar-wrapper ul > li.active > a, .sidebar-wrapper ul > li.current > a, .sidebar-wrapper ul > li:hover > a {
+    text-decoration: none;
+    /*margin: 0px -3px;*/
+    position: relative;
+    background-color: #3498DB;
+    color: #FFF;
+    border-left: 3px solid #F1C40F;
+    border-right: 3px solid #F1C40F;
+}
+.dropdown-menu > li.current-page, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    color: #FFF;
+    background-color: #3498DB;
+    background-image: none;
+    background-repeat: repeat-x;
+}
+
+.caret-right {
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+    border-left: 4px solid;
+    display: inline-block;
+    height: 0;
+    opacity: 0.3;
+    vertical-align: top;
+    width: 0;
+}
+
+.caret {
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    padding-left: 0px;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-width: 4px 4px 0px;
+    border-style: solid solid dotted;
+    border-color: #fff transparent -moz-use-text-color;
+    content: "";
+    color: #fff;
+}
+
+.dropdown-toggle i {
+    margin-left: 6px;
+    padding-left: 5px;
+}
+
+body {
+   opacity : 0;
+   transition : all ease 1s;
+}
+
+body.loaded {
+   opacity : 1;
+}
+
+hr {
+    border-bottom: 1px solid #aaa;
+}

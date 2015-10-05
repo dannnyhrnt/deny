@@ -1,0 +1,27 @@
+Visual FoxPro
+Dari Wikipedia bahasa Indonesia, ensiklopedia bebas
+Belum Diperiksa
+Visual FoxPro
+
+Typical VFP9 editing session
+Perancang
+Microsoft Corporation
+Rilis stabil
+Visual FoxPro 9.0 Service Pack 2 (SP2) (11 Oktober 2007; 7 tahun yang lalu)
+Status pengembangan
+Maintenance mode
+Sistem operasi
+Microsoft Windows
+Serambi
+x86 and greater
+Ketersediaan bahasa
+IDE: English, German, Spanish
+Runtime: Above, French, Chinese, Russian, Czech, Korean
+Jenis
+Database Programming language
+Lisensi
+Microsoft EULA
+Situs web resmi
+msdn.microsoft.com/vfoxpro
+Visual FoxPro adalah bahasa pemrograman berorientasi objek dan prosedural dari Microsoft. Awalnya bahasa pemrograman ini dikenal dengan nama FoxBASE yang diluncurkan oleh Fox Software pada awal 1984. Fox Technologies kemudian bergabung dengan Microsoft pada 1992 sehingga di depan nama FoxBASE ditambahkan awalan "Visual".
+Versi terakhir FoxPro (9.0) dapat berjalan pada sistem operasi Mac OS, DOS, Windows, dan Unix. Visual FoxPro 3.0, versi "Visual" pertama, akhirnya tersingkir karena hanya mendukung Mac OS dan Windows, dan versi berikutnya hanya mendukung Windows saja. Versi terkini Visual FoxPro adalah berdasarkan teknologi COM dan Microsoft telah menyatakan bahwa mereka tidak berniat untuk menciptakan versi Microsoft .NET.

@@ -1,0 +1,13 @@
+VBScript
+Dari Wikipedia bahasa Indonesia, ensiklopedia bebas
+Perubahan tertunda ditampilkan di halaman iniBelum Diperiksa
+
+VBScript atau lengkapnya Visual Basic Scripting Edition adalah sebuah bahasa skrip yang diinterpretasikan saat dieksekusi yang dikembangkan oleh Microsoft Corporation pada tahun 1996 yang seringnya digunakan dalam penjelajah web Internet Explorer (dapat digunakan mulai versi Internet Explorer 3.0). VBScript merupakan sebuah bahasa skrip turunan dari bahasa pemrograman Visual Basic for Applications (VBA) yang digunakan di dalam Microsoft Office dan beberapa platform pengembangan buatan Microsoft lainnya. VBScript menghilangkan beberapa fungsi dari VBA, seperti halnya fungsi I/O berkas dan akses langsung terhadap sistem operasi untuk menyediakan sebuah platform yang aman untuk mengembangkan aplikasi berbasis web dengan menggunakan platform Active Server Pages (ASP). Internet Explorer merupakan penjelajah web pertama yang menyediakan dukungan terhadap kode skrip yang ditulis dalam bahasa VBScript. VBScript dapat dijalankan di atas Windows 9x/ME, Windows 2000, Windows XP, Windows Server 2003, Windows Vista, Windows Server 2008 serta beberapa platform UNIX.
+
+VBScript tidak dapat digunakan untuk membuat program yang berdiri sendiri. Akan tetapi, VBScript harus dimasukkan ke dalam sebuah berkas HTML. Ketika Internet Explorer membuka dokumen berkas HTML tersebut, VBScript dapat melakukan fungsi yang sama seperti JavaScript--skrip tersebut akan dieksekusi. VBScript juga dapat digunakan untuk membuat sebuah alikasi HTML (yang memiliki ekstensi .HTA) yang membutuhakan paling tidak Internet Explorer 5 atau yang lebih baru agar dapat berjalan. HTA tidak seara langsung menggunakan Internet Explorer, tetapi menggunakan sebuah program, yakni MSHTA.EXE, yang menginterpretasikan dan menjalankan kode.
+
+Skrip VBScript yang dimasukkan di dalam berkas HTML harus dimasukkan di antara tag <SCRIPT>...</SCRIPT>. Berikut ini adalah contohnya (yang akan menampilkan sebuah dialog box berisi Hello World! ketika sebuah tombol diklik oleh pengguna):
+
+Penjelajah Web lainnya seperti Firefox dan Opera tidak memiliki dukungan terhadap VBScript secara langsung. Hal ini berarti untuk kompatibilitas maksimum dengan browser lainnya, para pengembang web site pun menggunakan JavaScript.
+
+Selain oleh penjelajah Web, VBScript juga dapat dieksekusi oleh aplikasi Windows Scripting Host (WSH). Umumnya, berkas VBScript yang dijalankan oleh WSH ini adalah berkas teks biasa dengan ekstensi .vbs dan dapat dieksekusi dengan menggunakan command-line maupun dengan desktop Windows. Windows memiliki dua buah program yang dapat menginterpretasikan berkas vbs yakni, cscript.exe dan wscript.exe.

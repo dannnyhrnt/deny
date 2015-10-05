@@ -1,0 +1,168 @@
+.well {
+	border-radius: 0px;
+	border: 0px;
+	background: #03acd5;
+	background: rgb(0,177,211); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(0,177,211,1) 0%, rgba(0,151,190,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,177,211,1)), color-stop(100%,rgba(0,151,190,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(0,177,211,1) 0%,rgba(0,151,190,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(0,177,211,1) 0%,rgba(0,151,190,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(0,177,211,1) 0%,rgba(0,151,190,1) 100%); /* IE10+ */
+	background: linear-gradient(to right,  rgba(0,177,211,1) 0%,rgba(0,151,190,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b1d3', endColorstr='#0097be',GradientType=1 ); /* IE6-9 */
+
+}
+
+.box {
+	width: 130px;
+	height: 130px;
+	display: table-cell;
+    vertical-align: middle;
+    margin: 0px auto;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #fff;
+}
+
+.box a {
+	color: #fff;
+}
+
+.box div .prop {
+	border: 1px solid #000;
+}
+
+.box:hover {
+	opacity: 0.8;
+}
+
+.box-large {
+	width: 260px;
+}
+
+.box-extra {
+	height: 360px;
+}
+
+.box-auto {
+	width: 100%;
+	display: block;
+}
+
+.box-auto > * {
+	vertical-align: middle;
+	padding-top: 10px;
+}
+
+.box-under {
+	height: 100%;
+	text-align: left;
+	color: #f4f4f4;
+}
+
+.box-under div p a {
+	color: #6fa4fb;
+}
+
+
+.box-under div {
+	padding: 10px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+.box > * {
+	margin: 0px auto;
+}
+
+.box img {
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.title-box {
+	text-align: right;
+	font-family: 'Lobster', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.box-space {
+	width: 130px;
+	height: 130px;
+	background: transparent;
+}
+
+.box-bluish {
+	background: #6fa4fb;
+}
+
+.box-green {
+	background: #7cc502;
+}
+
+.box-blue {
+	background: #f4f4f4;
+	height: 100%;
+	text-align: left;
+}
+
+.box-blue div {
+	padding: 10px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #aaaaaa;
+}
+
+.box-title {
+	font-family: 'Lobster', Helvetica, Arial, sans-serif;
+	font-size: 20px;
+}
+
+.box-title [class*=" icon-"] {
+	font-size: 40px;
+}
+
+.small-enter {
+	margin-bottom: 2px;
+}
+
+i [class*="icon"] {
+	font-size: 30px;
+    margin: 0px auto;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;	
+}
+
+.btn-search {
+    background-image: none;
+    border: 0 none;
+    box-shadow: none;
+    padding: 5px 12px;
+    text-shadow: none;
+}
+
+.search {
+	margin-left: 25px;
+	margin-top: 20px;
+}
+
+.search input, .btn-search {
+	height: 45px;
+	border-radius: 0px;
+}
+
+.center {
+	margin: 0 auto;
+	text-align: center;
+}
+
+textarea {
+	white-space: pre;
+  	word-wrap: normal;
+  	overflow-x: scroll;
+}

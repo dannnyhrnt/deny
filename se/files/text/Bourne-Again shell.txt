@@ -1,0 +1,5 @@
+Bourne-Again shell
+Dari Wikipedia bahasa Indonesia, ensiklopedia bebas
+Perubahan tertunda ditampilkan di halaman iniBelum Diperiksa
+
+Bourne-Again shell lebih sering disebut dengan bash. Bash ini salah program dalam GNU Project yang menjadi shell yang paling banyak digunakan pada lingkungan *NIX. Bourne-Again shell merupakan pengembangan dari Bourne shell. Namanya diambil dari penciptanya, yakni Stephen Bourne. bash sendiri kemudian dikembangkan Brian Fox. Saat ini, bash menjadi script' primer pada sistem Linux dan telah disertakan pula di Mac OS X Tiger. Selain Bash, shell yang ada ialah C-shell dan Korn Shell. Perbedaan ketiganya terlihat pada format penyimpananya, yaitu Bash (.sh), C-shell (.csh), dan Korn Shell (.ksh).

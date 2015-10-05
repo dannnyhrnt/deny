@@ -1,0 +1,7 @@
+Visual C++
+Dari Wikipedia bahasa Indonesia, ensiklopedia bebas
+
+Visual C++ adalah sebuah produk Integrated Development Environment (IDE) untuk bahasa pemrograman C dan C++ yang dikembangkan Microsoft. Visual C++ merupakan salah satu bagian dari paket Microsoft Visual Studio. Bahasa ini merupakan bahasa pemrograman tingkat tinggi (kompleks). Visual C++ adalah bahasa pemrograman yang cukup populer. Hampir semua file DLL pada sistem operasi Windows dibuat menggunakan bahasa ini.
+
+Visual C++ dapat berjalan lebih cepat pada windows karena hanya memerlukan memori yang kecil. Dalam hal ini, Ms. Visual C++ lebih unggul jika dibandingkan dengan Ms. Visual Basic. Ini menjadi salah satu alasan Ms. Visual C++ lebih dipilih programmer untuk membuat berbagai aplikasi dekstop maupun antivirus.
+
